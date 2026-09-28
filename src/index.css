@@ -1,0 +1,13 @@
+/* Reset only — all real styling comes from style.css (a verbatim port of the
+   original bel-portal/style.css, which is a self-contained global stylesheet
+   the legacy UI layer's markup already matches class-for-class). */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
